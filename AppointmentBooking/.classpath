@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="C:/oraclexe/app/oracle/product/10.2.0/server/jdbc/lib/ojdbc14.jar"/>
+	<classpathentry kind="lib" path="E:/Spring_Jars/aopalliance-1.0.jar"/>
+	<classpathentry kind="lib" path="E:/Spring_Jars/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="E:/Spring_Jars/jsr250-api-1.0.jar"/>
+	<classpathentry kind="lib" path="E:/Spring_Jars/ojdbc14.jar"/>
+	<classpathentry kind="lib" path="E:/Spring_Jars/ojdbc14_g.jar"/>
+	<classpathentry kind="lib" path="E:/Spring_Jars/spring-aop-4.2.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Spring_Jars/spring-beans-4.2.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Spring_Jars/spring-context-4.2.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Spring_Jars/spring-core-4.2.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Spring_Jars/spring-expression-4.2.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Spring_Jars/spring-jdbc-4.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Spring_Jars/spring-tx-4.1.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Spring_Jars/spring-web-4.2.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Spring_Jars/spring-webmvc-4.2.0.RELEASE.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

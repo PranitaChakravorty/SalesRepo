@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="myDataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+	<property name="driverClassName" value="oracle.jdbc.driver.OracleDriver"/>
+	<property name="url" value="jdbc:oracle:thin:@localhost:1521:XE"></property>
+	<property name="username" value="system"></property>
+	<property name="password" value="sapient@123"></property>
+</bean>
+
+<bean id="myJDBC" class="org.springframework.jdbc.core.JdbcTemplate">
+	<property name="dataSource" ref="myDataSource"></property>
+</bean>
+
+
+
+<bean id="myDao1" class="com.daoImpl.PatientDaoImpl">
+	<constructor-arg ref="myJDBC"></constructor-arg>
+</bean> 
+
+
+
+<bean id="myDao2" class="com.daoImpl.DaoAvailabilityImpl">
+	<constructor-arg ref="myJDBC"></constructor-arg>
+</bean> 
+
+
+
+<bean id="myDao3" class="com.daoImpl.DoctorDaoImpl">
+	<constructor-arg ref="myJDBC"></constructor-arg>
+</bean> 
+
+
+
+<bean id="myDao4" class="com.daoImpl.BookingDaoImpl">
+	<constructor-arg ref="myJDBC"></constructor-arg>
+</bean> 
+
+</beans>
